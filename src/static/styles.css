@@ -42,7 +42,7 @@ main {
 }
 
 section {
-  background-color: white;
+  background-color: hsl(312, 75%, 64%);
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -72,6 +72,49 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+  color: hsl(125, 60%, 46%);
+  font-size: 14px;
+}
+
+.participant-card {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid hsl(123, 51%, 31%);
+  border-radius: 5px;
+  background-color: hsl(312, 76%, 46%);
+}
+
+.participant-card h4 {
+  margin-bottom: 10px;
+  color: hsl(235, 73%, 49%);
+}
+
+.participant-card p {
+  margin-bottom: 8px;
+  color: hsl(0, 82%, 57%);
+  font-size: 14px;
+}
+
+.participant-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: circle;
+}
+
+.participant-card ul li {
+  margin-bottom: 5px;
+  color: hsl(148, 84%, 32%);
+  font-size: 14px;
 }
 
 .form-group {
